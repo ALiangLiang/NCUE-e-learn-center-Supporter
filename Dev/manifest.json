@@ -16,7 +16,17 @@
       "js": [ "bottom.js" ],
       "matches": [ "*://dlearn.ncue.edu.tw/learn/path/manifest.php" ],
 	  "run_at": "document_end"
+   }, {
+	  "all_frames": true,
+      "js": [ "indexBtn.js" ],
+      "matches": [ "*://dlearn.ncue.edu.tw/", "*://dlearn.ncue.edu.tw/index.php" ],
+	  "run_at": "document_end"
    }],
+   "icons": {
+      "128": "icon/icon128.png",
+      "16": "icon/icon16.png",
+      "48": "icon/icon48.png"
+   },
    "manifest_version": 2,
    "content_security_policy": "script-src 'self' https://www.google.com https://checkout.google.com; object-src 'self'",
    "version": "1.0.1"
